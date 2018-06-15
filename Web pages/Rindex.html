@@ -1,0 +1,127 @@
+<html>
+<head>
+<title>Signup Page</title>
+ <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div id="header">
+<h1>Create your Account</h1>
+</div>
+<center>
+<div id="main">
+<div id="signup">
+    <form action="Register" method="Post">
+<fieldset>
+<legend><h2>Sign-Up:</h2></legend>
+<b>First-name:  </b><input type="text" placeholder="FirstName" name="Firstname" required autocomplete="off"><br><br>
+<b>Last-name:  </b><input type="text" placeholder="Lastname" name="Lastname" required autocomplete="off"><br><br>
+<b>Roll No:    </b><input type="text" placeholder="15cs..." name="Rollno" required autocomplete="off"><br><br>
+<b>Email-id:   </b><input type="text" placeholder="xyz@gmail.com" name="Email" required autocomplete="off"><br><br>
+<b>Password:  </b><input type="text" placeholder="Password" name="Password" required autocomplete="off"><br><br>
+<input type="checkbox"  value="Terms" name="cb1" required><b>I agree to the <a href="#">Terms and Conditions<a>.</b><br><br>
+<input type="submit"  value="Sign-up" class="b1">
+<input type="Reset"  value="Clear" class="b2">
+</fieldset>
+    </form>
+</div>
+</center>
+</div>
+</div>
+<style>
+#header
+{
+ margin-top:5px;
+ left-margin:10px;
+ background-color:navy;
+ color:white;
+ width:1330px;
+ height:100px;
+ padding-top:7px;
+ padding-left:10px;
+ margin-left:2px;
+ font-family:Forte;
+}
+#main
+{
+ background-color:ghostwhite;
+ height:900px;
+ width:1335px;
+ border-radius:20px;
+ margin-top:10px;
+}
+#signup
+{
+  width:650px;
+  height:800px;
+}
+input[type=text],select
+{
+    width:60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid Blue;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color:lightgray;
+}
+.b1
+{
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline:none;
+  color:White;
+  background-color:Darkblue;
+  border: none;
+  border-radius: 10px;
+}
+
+.b1:hover
+{
+    background-color:Blue;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.b1:active
+{
+  background-color:Darkblue;
+  transform: translateY(4px);
+}
+.b2
+{
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline:none;
+  color:White;
+  background-color:Darkblue;
+  border: none;
+  border-radius: 10px;
+}
+
+.b2:hover
+{
+    background-color:Blue;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.b2:active
+{
+  background-color:Darkblue;
+  transform: translateY(4px);
+}
+</style>
+</body>
+</html>
